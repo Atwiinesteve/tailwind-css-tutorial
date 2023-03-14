@@ -2,21 +2,25 @@
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
-		spacing: {
-			1: "100px",
-			2: "12px",
-			3: "16px",
-			4: "24px",
-			5: "32px",
-			6: "48px",
-		},
-		screens: {
-			sm: "640px",
-			md: "768px",
-			lg: "1024px",
-			xl: "1280px",
-		},
 		extend: {
+			fontSize: {
+				sm: '15px',
+				base: '18px',
+			},
+			spacing: {
+				1: "100px",
+				2: "12px",
+				3: "16px",
+				4: "24px",
+				5: "32px",
+				6: "48px",
+			},
+			screens: {
+				sm: "640px",
+				md: "768px",
+				lg: "1024px",
+				xl: "1280px",
+			},
 			colors: {
 				midnight: "#121063",
 				metal: "#565584",
