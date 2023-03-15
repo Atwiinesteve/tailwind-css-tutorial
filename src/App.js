@@ -87,10 +87,10 @@ export default function App() {
 						<li>signup</li>
 					</ul>
 				</nav>
-				<div className="flex flex-row">
-					<div className="p-2 bg-blue-300 basis-1/4 md:basis-1/3">01</div>
-					<div className="p-2 bg-blue-300 flex-grow">02</div>
-					<div className="p-2 bg-blue-300 basis-1/2 md:basis-1/3">03</div>
+				<div className="flex flex-row text-center">
+					<div className="border-2 border-red-500 p-2 bg-blue-300 basis-1/4 md:basis-1/3">01</div>
+					<div className="border-2 border-red-500 p-2 bg-blue-300 flex-grow">02</div>
+					<div className="border-2 border-red-500 p-2 bg-blue-300 basis-1/2 md:basis-1/3">03</div>
 				</div>
 			</div>
 		</>
