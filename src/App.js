@@ -151,6 +151,37 @@ export default function App() {
 					4
 				</div>
 			</div>
+			<div className="background-blend-mode: multiply tailwind-box-shadows bg-white flex flex-row space-x-6 p-7">
+				<div className="shadow-md w-40 h-1 flex text-gray-500 justify-center items-center">
+					1
+				</div>
+				<div className="shadow-lg w-40 h-1 flex text-gray-500 justify-center items-center">
+					2
+				</div>
+				<div className="shadow-xl w-40 h-1 flex text-gray-500 justify-center items-center">
+					3
+				</div>
+				<div className="shadow-2xl w-40 h-1 flex text-gray-500 justify-center items-center">
+					4
+				</div>
+			</div>
+			<div className="buttons bg-indigo-400 flex flex-row space-x-4 p-3">
+				<button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 p-0 w-1 h-1">
+					Subscribe
+				</button>
+				<button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 p-0 w-1 h-1">
+					Subscribe
+				</button>
+				<button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 p-0 w-1 h-1">
+					Subscribe
+				</button>
+				<button className="shadow-lg shadow-indigo-500/40 p-0 w-1 h-1">
+					Subscribe
+				</button>
+				<button className="shadow-lg shadow-indigo-500/40 p-0 w-1 h-1">
+					Subscribe
+				</button>
+			</div>
 		</>
 	);
 }
