@@ -99,31 +99,31 @@ export default function App() {
 					</div>
 				</div>
 				<div className="bg-white p-3 grid grid-cols-5 grid-flow-row-dense gap-2">
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						1
 					</div>
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						2
 					</div>
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						3
 					</div>
-					<div className="flex row-span-2 text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center row-span-2 text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						4
 					</div>
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						5
 					</div>
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						6
 					</div>
-					<div className="flex col-span-2 text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center col-span-2 text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						7
 					</div>
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						8
 					</div>
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex justify-center items-center text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						9
 					</div>
 				</div>
