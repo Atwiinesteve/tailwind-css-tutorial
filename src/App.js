@@ -48,6 +48,28 @@ export default function App() {
 				<p className="text-xs">A little note</p>
 				<p style={{ width: '300px'}} className="truncate">This is a long sentence to explain the trancate functionality</p>
 			</div>
+			<div className="sizes-and-padding--padding">
+				<p className="p-4 bg-red-500">padding all</p>
+				<p className="pt-4 bg-blue-500 text-white">padding top</p>
+				<p className="pr-4 text-right bg-green-500 text-white">padding right</p>
+				<p className="pl-4 bg-orange-500 text-white">padding left</p>
+				<p className="pb-4 bg-yellow-500 text-white">padding bottom</p>
+			</div>
+			<div className="sizes-and-padding--margin">
+				<p className="m-4 bg-violet-500 text-white">margin all</p>
+				<p className="mt-4 bg-violet-500 text-white">margin top</p>
+				<p className="mr-4 bg-violet-500 text-white">margin right</p>
+				<p className="ml-4 bg-violet-500 text-white">margin left</p>
+				<p className="mb-4 bg-violet-500 text-white">margin bottom</p>
+			</div>
+			<div className="bg-white p-6">
+				<div className="w-40 h-1 bg-blue-200"></div>
+				<div className="-mt-4 ml-5 w-20 h-12 bg-blue-500"></div>
+			</div>
+			<div className="bg-white p-6 flex space-x-1">
+				<div className="mb-2 w-40 h-12 bg-blue-200"></div>
+				<div className="w-40 h-12 bg-blue-500"></div>
+			</div>
 		</>
 	);
 }
