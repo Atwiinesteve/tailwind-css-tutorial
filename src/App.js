@@ -46,7 +46,9 @@ export default function App() {
 					A description paragraph
 				</p>
 				<p className="text-xs">A little note</p>
-				<p style={{ width: '300px'}} className="truncate">This is a long sentence to explain the trancate functionality</p>
+				<p style={{ width: "300px" }} className="truncate">
+					This is a long sentence to explain the trancate functionality
+				</p>
 			</div>
 			<div className="sizes-and-padding--padding">
 				<p className="p-4 bg-red-500">padding all</p>
@@ -69,6 +71,27 @@ export default function App() {
 			<div className="bg-white p-6 flex space-x-1">
 				<div className="mb-2 w-40 h-12 bg-blue-200"></div>
 				<div className="w-40 h-12 bg-blue-500"></div>
+			</div>
+			<div className="bg-white p-3 text-black flex flex-col">
+				<header>header</header>
+				<nav className="w-full flex flex-row bg-blue-400 space-x-1">
+					<ul className="flex flex-row basis-1/4 mr-1">
+						<li>home</li>
+						<li>about</li>
+					</ul>
+					<div className="basis-1/2">
+						<p>main header</p>
+					</div>
+					<ul className="flex flex-row basis-1/4 ml-1">
+						<li>signin</li>
+						<li>signup</li>
+					</ul>
+				</nav>
+				<div className="flex flex-row">
+					<div className="basis-1/4 md:basis-1/3">01</div>
+					<div className="basis-1/4 md:basis-1/3">02</div>
+					<div className="basis-1/2 md:basis-1/3">03</div>
+				</div>
 			</div>
 		</>
 	);
