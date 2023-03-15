@@ -128,6 +128,29 @@ export default function App() {
 					</div>
 				</div>
 			</div>
+			<div className="tailwind-borders flex flex-row bg-white space-x-5 p-7">
+				<div className="rounded flex justify-center items-center font-extrabold w-1 h-1 bg-pink-500 text-white">
+					1
+				</div>
+				<div className="rounded-md flex justify-center items-center font-extrabold w-1 h-1 bg-pink-500 text-white">
+					2
+				</div>
+				<div className="rounded-lg flex justify-center items-center font-extrabold w-1 h-1 bg-pink-500 text-white">
+					3
+				</div>
+				<div className="rounded-full flex justify-center items-center font-extrabold w-1 h-1 bg-pink-500 text-white">
+					4
+				</div>
+				<div className="rounded-full border-dashed flex justify-center items-center font-extrabold w-1 h-1 border-4 border-pink-500 text-pink-500">
+					4
+				</div>
+				<div className="rounded-full border-dotted flex justify-center items-center font-extrabold w-1 h-1 border-4 border-pink-500 text-pink-500">
+					4
+				</div>
+				<div className="rounded-full border-double flex justify-center items-center font-extrabold w-1 h-1 border-4 border-pink-500 text-pink-500">
+					4
+				</div>
+			</div>
 		</>
 	);
 }
