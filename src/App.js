@@ -98,7 +98,7 @@ export default function App() {
 						03
 					</div>
 				</div>
-				<div className="bg-white p-3 grid grid-cols-5 gap-2">
+				<div className="bg-white p-3 grid grid-cols-5 grid-flow-row-dense gap-2">
 					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						1
 					</div>
@@ -108,7 +108,7 @@ export default function App() {
 					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						3
 					</div>
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex row-span-2 text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						4
 					</div>
 					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
@@ -117,7 +117,7 @@ export default function App() {
 					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						6
 					</div>
-					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+					<div className="flex col-span-2 text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						7
 					</div>
 					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
