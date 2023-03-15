@@ -98,55 +98,32 @@ export default function App() {
 						03
 					</div>
 				</div>
-				<div className="bg-white p-3 grid grid-cols-5 gaps-1">
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+				<div className="bg-white p-3 grid grid-cols-5 gap-2">
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
+						1
+					</div>
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						2
 					</div>
-					<div className="w-2 h-1 bg-red-400 text-white text-bold text-center">
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						3
 					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						4
 					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						5
 					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						6
 					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						7
 					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						8
 					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
-						9
-					</div>
-				</div>
-				<div className="bg-white p-3 grid grid-cols-5 gaps-1">
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
-						2
-					</div>
-					<div className="w-2 h-1 bg-red-400 text-white text-bold text-center">
-						3
-					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
-						4
-					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
-						5
-					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
-						6
-					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
-						7
-					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
-						8
-					</div>
-					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+					<div className="flex text-center w-full rounded-lg h-1 bg-red-400 text-white font-bold">
 						9
 					</div>
 				</div>
