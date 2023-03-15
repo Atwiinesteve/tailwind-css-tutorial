@@ -88,9 +88,9 @@ export default function App() {
 					</ul>
 				</nav>
 				<div className="flex flex-row">
-					<div className="basis-1/4 md:basis-1/3">01</div>
-					<div className="basis-1/4 md:basis-1/3">02</div>
-					<div className="basis-1/2 md:basis-1/3">03</div>
+					<div className="p-2 bg-blue-300 basis-1/4 md:basis-1/3">01</div>
+					<div className="p-2 bg-blue-300 flex-grow">02</div>
+					<div className="p-2 bg-blue-300 basis-1/2 md:basis-1/3">03</div>
 				</div>
 			</div>
 		</>
