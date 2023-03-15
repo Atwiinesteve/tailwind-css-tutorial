@@ -88,9 +88,67 @@ export default function App() {
 					</ul>
 				</nav>
 				<div className="flex flex-row text-center">
-					<div className="border-2 border-red-500 p-2 bg-blue-300 basis-1/4 md:basis-1/3">01</div>
-					<div className="border-2 border-red-500 p-2 bg-blue-300 flex-grow">02</div>
-					<div className="border-2 border-red-500 p-2 bg-blue-300 basis-1/2 md:basis-1/3">03</div>
+					<div className="border-2 border-red-500 p-2 bg-blue-300 basis-1/4 md:basis-1/3">
+						01
+					</div>
+					<div className="border-2 border-red-500 p-2 bg-blue-300 flex-grow">
+						02
+					</div>
+					<div className="border-2 border-red-500 p-2 bg-blue-300 basis-1/2 md:basis-1/3">
+						03
+					</div>
+				</div>
+				<div className="bg-white p-3 grid grid-cols-5 gaps-1">
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						2
+					</div>
+					<div className="w-2 h-1 bg-red-400 text-white text-bold text-center">
+						3
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						4
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						5
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						6
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						7
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						8
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						9
+					</div>
+				</div>
+				<div className="bg-white p-3 grid grid-cols-5 gaps-1">
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						2
+					</div>
+					<div className="w-2 h-1 bg-red-400 text-white text-bold text-center">
+						3
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						4
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						5
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						6
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						7
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						8
+					</div>
+					<div className="w-1 h-1 bg-red-400 text-white text-bold text-center">
+						9
+					</div>
 				</div>
 			</div>
 		</>
